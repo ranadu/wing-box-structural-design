@@ -1,0 +1,58 @@
+\section{Conceptual Landing Gear Design}
+
+\subsection{Role of the Landing Gear}
+
+The landing gear system is a critical structural subsystem responsible for supporting the aircraft during ground operations, absorbing landing impact loads, and transmitting braking and taxi forces into the airframe. Although it is not a primary aerodynamic structure, landing gear design is strongly influenced by structural considerations and load transfer requirements.
+
+In early-stage aircraft design, landing gear development focuses on configuration selection, load path reasoning, and geometric integration rather than detailed component sizing. This section presents a conceptual landing gear design consistent with the overall aircraft configuration and structural philosophy established in previous sections.
+
+%------------------------------------------------
+
+\subsection{Landing Gear Configuration Selection}
+
+A conventional tricycle landing gear configuration was selected for this conceptual design. This configuration consists of a single nose gear and two main landing gear assemblies located aft of the aircraft center of gravity.
+
+The tricycle configuration offers several advantages, including improved ground stability, favorable pilot visibility during taxi, and reduced risk of nose-over during braking. It is widely used in modern fixed-wing aircraft and is therefore an appropriate baseline for conceptual design.
+
+%------------------------------------------------
+
+\subsection{Design Load Considerations}
+
+Landing gear loads are primarily driven by vertical impact forces during touchdown, as well as longitudinal loads generated during braking and ground maneuvering. For conceptual design purposes, the most critical loading condition is assumed to be a symmetric vertical landing event.
+
+During landing, the main landing gear absorbs the majority of the aircraft weight and impact energy. The resulting loads are transmitted through the landing gear structure into the wing or fuselage attachment points, depending on configuration.
+
+While detailed impact dynamics are not modeled in this study, the landing gear is assumed to experience vertical loads significantly exceeding the static aircraft weight. These loads inform the structural placement and sizing philosophy discussed in subsequent sections.
+
+%------------------------------------------------
+
+\subsection{Structural Integration and Load Paths}
+
+In this conceptual design, the main landing gear is assumed to be structurally integrated near the wing root region, where the wing box provides a strong and stiff load-carrying structure. This placement minimizes bending moments in the wing and enables efficient transfer of landing loads into the primary wing structure.
+
+Landing loads are transmitted from the wheels through the landing gear struts into the surrounding airframe structure. The wing box, previously designed to resist significant bending and shear loads, provides a suitable structural interface for accommodating these additional ground loads.
+
+The nose landing gear is assumed to be attached to the forward fuselage structure and is primarily responsible for supporting a smaller fraction of the aircraft weight during ground operations.
+
+%------------------------------------------------
+
+\subsection{Conceptual Geometry and Layout}
+
+The landing gear geometry was developed at a high level to ensure adequate ground clearance, stability, and compatibility with the aircraft structural layout. Retraction mechanisms and detailed shock absorber components were not explicitly modeled, as they fall outside the scope of this conceptual study.
+
+Figure~\ref{fig:landinggear_layout} presents a schematic representation of the landing gear configuration and its relationship to the wing and fuselage structure.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/landinggear_layout.png}
+    \caption{Conceptual landing gear configuration and structural integration}
+    \label{fig:landinggear_layout}
+\end{figure}
+
+%------------------------------------------------
+
+\subsection{Design Assumptions and Limitations}
+
+The landing gear design presented in this section is intended to demonstrate configuration selection and structural reasoning rather than detailed mechanical design. Shock absorber sizing, tire selection, braking system design, and retraction kinematics were not addressed.
+
+These elements represent important areas for detailed landing gear development and certification and would be considered during later stages of aircraft design.

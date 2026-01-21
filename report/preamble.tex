@@ -1,0 +1,36 @@
+% Preamble for LaTeX report document
+\usepackage[a4paper,margin=1in]{geometry}
+
+% Math & symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+
+% Figures & tables
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Fonts & spacing
+\usepackage{setspace}
+\onehalfspacing
+
+% References & links
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=black
+}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+% Prevent orphaned figures
+\usepackage[section]{placeins}
